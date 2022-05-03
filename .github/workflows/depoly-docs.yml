@@ -1,4 +1,4 @@
-name: 部署文档网站
+name: 部署文档
 
 on:
   push:
@@ -34,6 +34,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
           branch: blog
           folder: docs/.vuepress/dist
