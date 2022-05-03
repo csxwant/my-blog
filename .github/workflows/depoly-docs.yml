@@ -36,3 +36,4 @@ jobs:
         with:
           branch: blog
           folder: docs/.vuepress/dist
+          force: false
