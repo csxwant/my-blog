@@ -1,13 +1,13 @@
 import { defineNavbarConfig } from "vuepress-theme-hope";
 
 export const en = defineNavbarConfig([
-  "/",
-  "/home",
-  { text: "Guide", icon: "creative", link: "/guide/" },
+  "/en/",
+  "/en/home",
+  { text: "Guide", icon: "creative", link: "/en/guide/" },
   {
     text: "Posts",
     icon: "edit",
-    prefix: "/posts/",
+    prefix: "/en/posts/",
     children: [
       {
         text: "Articles 1-4",

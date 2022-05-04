@@ -11,8 +11,8 @@ export default defineThemeConfig({
   },
 
   iconPrefix: "iconfont icon-",
-
-  logo: "/logo.svg",
+  // 左上角图标
+  logo: "/logo.jpg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -55,39 +55,42 @@ export default defineThemeConfig({
   },
 
   locales: {
-    "/": {
-      // navbar
-      navbar: navbar.en,
-
-      // sidebar
-      sidebar: sidebar.en,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
-      blog: {
-        description: "A FrontEnd programmer",
-        // intro: "/intro.html",
-      },
-    },
-
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: navbar.zh,
 
       // sidebar
       sidebar: sidebar.zh,
 
-      footer: "默认页脚",
+      footer: "",
 
       displayFooter: true,
 
       blog: {
-        description: "我是谁",
+        description: "一个倒霉蛋",
+        // intro: "/intro.html",
+      },
+    },
+
+    /**
+     * English locale config
+     */
+    "/en/": {
+      // navbar
+      navbar: navbar.en,
+
+      // sidebar
+      sidebar: sidebar.en,
+
+      footer: "",
+
+      displayFooter: true,
+
+      blog: {
+        description: "a stupid",
         // intro: "/zh/intro.html",
       },
     },
@@ -96,7 +99,7 @@ export default defineThemeConfig({
   encrypt: {
     config: {
       "/guide/encrypt.html": ["1234"],
-      "/zh/guide/encrypt.html": ["1234"],
+      "/en/guide/encrypt.html": ["1234"],
     },
   },
 

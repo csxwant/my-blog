@@ -16,14 +16,14 @@ export default defineHopeConfig({
 
   locales: {
     "/": {
-      lang: "en-US",
-      title: "CSXWANT BLOG",
-      description: "A demo for vuepress-theme-hope",
-    },
-    "/zh/": {
       lang: "zh-CN",
       title: "我的博客",
       description: "vuepress-theme-hope 的演示",
+    },
+    "/en/": {
+      lang: "en-US",
+      title: "CSXWANT BLOG",
+      description: "A demo for vuepress-theme-hope",
     },
   },
 
