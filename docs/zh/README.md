@@ -8,7 +8,7 @@ bgImage: /world.jpg
 [//]: # (heroImage: /logo.svg)
 heroText: CSXWANT
 heroFullScreen: true
-tagline: 没有什么不可能
+tagline: 没有什么不可能!
 projects:
   - icon: project
     name: 项目名称
