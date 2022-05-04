@@ -14,7 +14,7 @@ export default defineThemeConfig({
   // 左上角图标
   logo: "/logo.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/csxwant/my-blog",
 
   docsDir: "demo/src",
 
