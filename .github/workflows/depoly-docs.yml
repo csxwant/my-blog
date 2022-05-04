@@ -23,7 +23,7 @@ jobs:
             ${{ runner.os }}-node-modules-
 
       - name: Install Deps
-#        if: steps.node-modules.outputs.cache-hit != 'true'
+        if: steps.node-modules.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile
 
       - name: Build Docs
