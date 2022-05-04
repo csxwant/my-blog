@@ -27,8 +27,8 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build Docs
-        env:
-          NODE-OPTIONS: --max_old_space_size=8192
+#        env:
+#          NODE-OPTIONS: --max_old_space_size=8192
         run: yarn run docs:build
 
       - name: Deploy
