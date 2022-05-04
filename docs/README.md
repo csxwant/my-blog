@@ -7,7 +7,7 @@ title: Blog Home
 [//]: # (heroImage: /logo.svg)
 bgImage: /world.jpg
 heroText: csx blog
-tagline: there is nothing
+tagline: I hope world peace
 heroFullScreen: true
 projects:
   - icon: project
