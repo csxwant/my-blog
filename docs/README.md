@@ -6,7 +6,7 @@ title: Blog Home
 
 [//]: # (heroImage: /logo.svg)
 bgImage: /world.jpg
-heroText: csx blog
+heroText: My Blog
 tagline: I hope world peace.
 heroFullScreen: true
 projects:
