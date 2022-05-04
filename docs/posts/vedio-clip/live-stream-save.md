@@ -8,7 +8,7 @@ tag:
 ---
 
 # VLC保存直播流
-UP主保存虎牙直播流使用的软件是VLC(VLC media player)
+UP主保存虎牙直播流使用的软件是VLC(VLC media player)  
 VLC下载链接：[下载链接](https://www.videolan.org/)
 
 ## 流程
