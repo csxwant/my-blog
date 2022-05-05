@@ -20,6 +20,27 @@ export const zh = defineSidebarConfig({
       prefix: "vedio-clip/",
       collapsable: true,
       children: "structure",
+    },
+    {
+      text: "度盘下载",
+      icon: "creative",
+      prefix: "pan-download/",
+      collapsable: true,
+      children: "structure",
+    }
+  ],
+  "/code/": [
+    {text: "后端相关",
+      icon: "creative",
+      prefix: "back-end/",
+      collapsable: true,
+      children: "structure",
+    },
+    {text: "前端相关",
+      icon: "creative",
+      prefix: "front-end/",
+      collapsable: true,
+      children: "structure",
     }
   ]
 });

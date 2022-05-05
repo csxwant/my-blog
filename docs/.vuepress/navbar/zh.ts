@@ -17,7 +17,21 @@ export const zh = defineNavbarConfig([
           { text: "直播流保存", icon: "edit", link: "live-stream-save" },
         ],
       },
+      {
+        text: "度盘下载",
+        icon: "edit",
+        prefix: "pan-download/",
+        children: [
+          { text: "百度网盘", icon: "edit", link: "no-limit-download" },
+        ]
+      },
     ],
+  },
+  {
+    text: "编程之美",
+    icon: "edit",
+    prefix: "/code",
+    link: "/code/README.md/",
   },
   {
     text: "主题文档",
