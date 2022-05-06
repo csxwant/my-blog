@@ -140,5 +140,5 @@ export default defineThemeConfig({
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
     },
-  },
+  }
 });
